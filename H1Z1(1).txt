@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Yahoo</title>
+</head>
+</head>
+<body>
+<?php 
+echo "<b>Hello</b>";
+$variable="name";
+echo "<br>What is your" $variable;
+// for constant declaraction
+define(a,"hello");
+define(b," There");
+//for concatenation
+echo "<br>" $a.$b;
+//Array formation and multidimensional array implememtion
+echo "<br><br><br>";
+$people=array("ram","rohit","raju");
+echo $people[2];
+//conditional statements
+echo "<br><br><br>";
+if(5>3)
+{ echo  "true";}
+else
+{ echo "false";}
+echo "<br><br><br>";
+if(5>6)
+{ echo  "true";}
+elseif(7>3)
+{ echo "Second statement is true and not first";}
+else
+{ echo "false";}
+//Loops 
+echo "<br><br><br>";
+$i=0;
+while($i<=10)
+{ echo $i"<br>";
+   $i++;
+}
+?>
+
+
